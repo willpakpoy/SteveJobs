@@ -7,7 +7,6 @@
           <p>The man who changed the world.</p>
         </span>
         <span class="down">
-          
           <font-awesome-icon icon="chevron-down" />
           <p class="source">Source: Apple Inc (Narration: Steve Jobs)</p>
         </span>

@@ -1,12 +1,8 @@
 <template>
   <div class="page">
     <intro-video />
-    <div class="block fh">
-      Hi
-    </div>
-    <div class="block fh">
-      Hi 2
-    </div>
+    <div class="block fh">Hi</div>
+    <div class="block fh">Hi 2</div>
   </div>
 </template>
 
