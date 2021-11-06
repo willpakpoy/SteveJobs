@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: center;
     transition: 0.2s ease-in-out;
+    text-align: center;
     &:hover {
       transform: scale(1.1);
       transition: 0.2s ease-in-out;

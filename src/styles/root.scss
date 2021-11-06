@@ -1,7 +1,19 @@
 @import "@/styles/_vars.scss";
+@import "@/styles/_animations.scss";
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; 
   background-color: var(--c-dark-grey);
   color: #fff;
   margin: 0px;
+  overflow-x: hidden;
+}
+
+.fh {
+  height: 100vh;
+}
+
+.source {
+  font-size: 0.6em;
+  font-weight: italic;
 }
