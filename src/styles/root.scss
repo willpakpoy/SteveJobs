@@ -1,13 +1,23 @@
-@import "@/styles/_vars.scss";
-@import "@/styles/_animations.scss";
+@import 'normalize-scss';
+@include normalize();
 
-body {
+@import "vars";
+@import "animations";
+@import "scrollsnap";
+
+html, body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; 
   background-color: var(--c-dark-grey);
   color: #fff;
   margin: 0px;
-  overflow-x: hidden;
+  overflow: hidden;
+  height: 100vh;
 }
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
 
 .fh {
   height: 100vh;

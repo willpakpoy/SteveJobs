@@ -1,0 +1,9 @@
+.page {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  overflow-x: hidden;
+  .block {
+      scroll-snap-align: center;
+  }
+}

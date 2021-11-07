@@ -15,7 +15,7 @@
     <video
       src="@/assets/think-different-jobs.mp4"
       autoplay
-      loop
+      :loop="isVisible"
       :muted="!isVisible"
       v-observe-visibility="visibilityStateUpdated"
     >
@@ -26,6 +26,8 @@
 
 <style lang="scss" scoped>
 .block-intro-video {
+  position: relative;
+  margin-bottom: 1px;
   video {
     object-fit: cover;
     height: 100%;
@@ -42,7 +44,7 @@
       padding: var(--l-inner-padding);
       position: absolute;
       bottom: 0px;
-      width: calc(100% - var(--l-inner-padding) * 2);
+      width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: flex-end;
