@@ -1,0 +1,11 @@
+.block:not(.fh) {
+  width: 100vw;
+  max-width: var(--l-page-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--l-inner-padding);
+}
+
+img {
+  width: 100%;
+}

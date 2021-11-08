@@ -51,9 +51,6 @@
       * {
         margin: 0px;
       }
-      h1 {
-        font-size: 4em;
-      }
       .down {
         display: flex;
         align-items: flex-end;

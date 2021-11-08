@@ -1,0 +1,21 @@
+h1 {
+  font-size:90px;
+  letter-spacing: -0.055em;
+  line-height: 0.9em;
+  text-indent: -0.03em;
+  margin-bottom: 4rem;
+  margin-top: 10px;
+  font-weight: 740;
+}
+
+.extract-slot {
+  p {
+    font-size: 2em;
+    letter-spacing: -0.055em;
+    text-indent: -0.03em;
+    .itr {
+      font-size: 0.5em;
+      font-style: italic
+    }
+  }
+}

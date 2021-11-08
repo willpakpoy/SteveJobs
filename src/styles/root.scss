@@ -4,9 +4,11 @@
 @import "vars";
 @import "animations";
 @import "scrollsnap";
+@import "page";
+@import "typography";
 
 html, body {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; 
+  font-family: "inter var", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif; 
   background-color: var(--c-dark-grey);
   color: #fff;
   margin: 0px;
