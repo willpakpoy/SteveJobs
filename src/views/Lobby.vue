@@ -18,8 +18,8 @@
     background-color: #fff;
     padding: 1em;
     border-radius: 50%;
-    height: 6em;
-    width: 6em;
+    height: 8em;
+    width: 8em;
     display: flex;
     align-items: center;
     justify-content: center;

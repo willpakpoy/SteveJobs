@@ -19,3 +19,20 @@ h1 {
     }
   }
 }
+
+.extract {
+  button {
+    background-color: #fff;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: none;
+    border: 2px solid #fff;;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      transition: 0.2s ease-in-out;
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}

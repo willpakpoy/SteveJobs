@@ -1,5 +1,5 @@
 <template>
-  <extract title="The Reality Distortion Field">
+  <extract title="The Reality Distortion Field" :extract-images="images">
     <p>
       In Chapter Eleven of <i>Steve Jobs</i>, Walter Isaacson interviews
       employees at Apple to understand what it was like to work in the original
@@ -36,5 +36,19 @@ export default {
   components: {
     Extract,
   },
+  data: function() {
+    return {
+      images: [
+        {
+          path: 'https://s3-us-west-1.amazonaws.com/powr/defaults/image-slider2.jpg',
+          caption: 'Elephant',
+        },
+        {
+          path: 'https://i-kinhdoanh.vnecdn.net/2018/06/18/1-1529296929_680x0.jpg',
+          caption: 'Messi',
+        },
+      ]
+    }
+  }
 };
 </script>
