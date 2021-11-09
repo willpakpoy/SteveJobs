@@ -7,11 +7,11 @@
     </span>
     <vue-image-lightbox-carousel
       ref="lightbox"
-      :show="showLightbox"
-      @close="showLightbox = false"
-      :images="images"
+      :show="showExtract"
+      @close="showExtract = false"
+      :images="extract-images"
       @change="changeImage"
-      >
+      />
   </div>
 </template>
 
@@ -30,8 +30,11 @@ export default {
   },
   methods: {
     openLightbox() {
-      this.showLightbox = true
+      this.showExtract = true
       this.$refs.lightbox.showImage(1)
+    },
+    changeImage(image) {
+      console.log(image)
     }
   }
 };
