@@ -7,6 +7,22 @@
       caption="Steve Jobs unveiling the first generation iPod. Source: TIME"
     />
     <extract-two />
+    <youtube-artifact>
+      <iframe
+        width="700"
+        height="400"
+        src="https://www.youtube.com/embed/LOb3FJhDbYs"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </youtube-artifact>
+    <extract-three />
+    <artifact
+      :image="require(`@/assets/artifacts/dianawalkersteve.jpg`)"
+      caption='Steve Jobs busy in his home office in Palo Alto: "I like living at the intersection of humanity and reality". Source: Diana Walker / MacRumours'
+    />
   </div>
 </template>
 
@@ -15,13 +31,17 @@ import Artifact from "@/components/Artifact";
 import IntroVideo from "@/components/1IntroVideo";
 import ExtractOne from "@/components/2Extract1";
 import ExtractTwo from "@/components/3Extract2";
+import ExtractThree from "@/components/4Extract3";
+import YoutubeArtifact from "@/components/YouTubeArtifact";
 
 export default {
   components: {
     Artifact,
+    YoutubeArtifact,
     IntroVideo,
     ExtractOne,
     ExtractTwo,
+    ExtractThree,
   },
 };
 </script>
