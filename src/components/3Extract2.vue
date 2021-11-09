@@ -10,9 +10,9 @@
       marketing to go along with it. These two concepts; bringing the consumer
       to the center of the experience, and carefully choosing markets which
       lacked products that a consumer would actually want to buy, are two
-      talents of Jobs that Isaacson touches on as being the driving force for Apple’s success
-      in the early 2000’s when they began to branch away from only manufacturing
-      desktop computers.
+      talents of Jobs that Isaacson touches on as being the driving force for
+      Apple’s success in the early 2000’s when they began to branch away from
+      only manufacturing desktop computers.
     </p>
     <p>
       Isaacson has managed to convey these notions about the way Jobs and his

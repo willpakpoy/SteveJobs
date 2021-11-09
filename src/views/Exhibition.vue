@@ -27,7 +27,9 @@
       :image="require(`@/assets/artifacts/dianawalkersteve.jpg`)"
       caption='Jobs busy in his home office in Palo Alto: "I like living at the intersection of humanity and reality". Source: Diana Walker / MacRumours'
     />
-    <footer><p>Created by <a href="https://willpakpoy.com">Will Pak Poy</a>.</p></footer>
+    <footer>
+      <p>Created by <a href="https://willpakpoy.com">Will Pak Poy</a>.</p>
+    </footer>
   </div>
 </template>
 

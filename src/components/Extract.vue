@@ -9,33 +9,29 @@
       ref="lightbox"
       :show="showExtract"
       @close="showExtract = false"
-      :images="extract-images"
-      @change="changeImage"
-      />
+      :images="images"
+    />
   </div>
 </template>
 
 <script>
-import VueImageLightboxCarousel from 'vue-image-lightbox-carousel';
+import VueImageLightboxCarousel from "vue-image-lightbox-carousel";
 export default {
   name: "Extract",
-  props: ["title", "extract-images"],
-  data: function() {
+  props: ["title", "images"],
+  data: function () {
     return {
       showExtract: false,
-    }
+    };
   },
   components: {
-    VueImageLightboxCarousel
+    VueImageLightboxCarousel,
   },
   methods: {
     openLightbox() {
-      this.showExtract = true
-      this.$refs.lightbox.showImage(1)
+      this.showExtract = true;
+      this.$refs.lightbox.showImage(0);
     },
-    changeImage(image) {
-      console.log(image)
-    }
-  }
+  },
 };
 </script>
