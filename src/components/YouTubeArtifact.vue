@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  name: "YouTubeArtifact"
-}
+  name: "YouTubeArtifact",
+};
 </script>
 <style scoped lang="scss">
 .youtube-embed {

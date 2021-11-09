@@ -1,6 +1,10 @@
 <template>
   <div class="page">
     <intro-video />
+    <artifact
+      :image="require(`@/assets/artifacts/garage.jpg`)"
+      caption="Jobs in his garage, with two Apple Macintosh computers in the background. Source: MacRumours"
+    />
     <extract-one />
     <artifact
       :image="require(`@/assets/artifacts/steve-jobs-ipod.webp`)"
@@ -21,8 +25,9 @@
     <extract-three />
     <artifact
       :image="require(`@/assets/artifacts/dianawalkersteve.jpg`)"
-      caption='Steve Jobs busy in his home office in Palo Alto: "I like living at the intersection of humanity and reality". Source: Diana Walker / MacRumours'
+      caption='Jobs busy in his home office in Palo Alto: "I like living at the intersection of humanity and reality". Source: Diana Walker / MacRumours'
     />
+    <footer><p>Created by <a href="https://willpakpoy.com">Will Pak Poy</a>.</p></footer>
   </div>
 </template>
 
