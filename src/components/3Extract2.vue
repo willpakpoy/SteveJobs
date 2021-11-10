@@ -1,5 +1,5 @@
 <template>
-  <extract title="The iPod and the importance of the consumer">
+  <extract title="The iPod and the importance of the consumer" :images="images">
     <p>
       The introduction of the iPod was the pinnacle of Jobs’ return to Apple in
       the late 90’s and cemented the company’s success for many years to come.
@@ -40,6 +40,24 @@ import Extract from "@/components/Extract.vue";
 export default {
   components: {
     Extract,
+  },
+  data: function () {
+    return {
+      images: [
+        {
+          path: require(`@/assets/extract-photos/2-1.jpg`),
+          caption: "Page 354",
+        },
+        {
+          path: require(`@/assets/extract-photos/2-2.jpg`),
+          caption: "Page 355",
+        },
+        {
+          path: require(`@/assets/extract-photos/2-3.jpg`),
+          caption: "Page 356",
+        },
+      ],
+    };
   },
 };
 </script>

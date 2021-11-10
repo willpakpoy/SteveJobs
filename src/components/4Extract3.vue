@@ -1,5 +1,5 @@
 <template>
-  <extract title="Where technology meets art">
+  <extract title="Where technology meets art" :images="images">
     <p>
       As well as Jobs’ role in revolutionising the personal computer, he also
       co-founded another monumental company, Pixar. In 1995, Pixar released to
@@ -33,6 +33,28 @@ import Extract from "@/components/Extract.vue";
 export default {
   components: {
     Extract,
+  },
+  data: function () {
+    return {
+      images: [
+        {
+          path: require(`@/assets/extract-photos/3-1.jpg`),
+          caption: "Page 218",
+        },
+        {
+          path: require(`@/assets/extract-photos/3-2.jpg`),
+          caption: "Page 219",
+        },
+        {
+          path: require(`@/assets/extract-photos/3-3.jpg`),
+          caption: "Page 220",
+        },
+        {
+          path: require(`@/assets/extract-photos/3-4.jpg`),
+          caption: "Page 221",
+        },
+      ],
+    };
   },
 };
 </script>
