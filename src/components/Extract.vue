@@ -4,13 +4,13 @@
     <span class="extract-slot"><slot /></span>
     <span class="extract">
       <button @click="openLightbox">Show extract</button>
-    </span>
+    </span><span class="lightbox">
     <vue-image-lightbox-carousel
       ref="lightbox"
       :show="showExtract"
       @close="showExtract = false"
       :images="images"
-    />
+    /></span>
   </div>
 </template>
 

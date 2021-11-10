@@ -9,3 +9,9 @@
 img {
   width: 100%;
 }
+
+.lightbox {
+  img {
+    object-fit: contain;
+  }
+}

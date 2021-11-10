@@ -40,16 +40,16 @@ export default {
     return {
       images: [
         {
-          path: require(`@/assets/artifacts/garage.jpg`),
-          caption: "Elephant",
+          path: require(`@/assets/extract-photos/1-1.jpg`),
+          caption: "Page 107",
         },
         {
-          path: require(`@/assets/artifacts/garage.jpg`),
-          caption: "Elephant",
+          path: require(`@/assets/extract-photos/1-2.jpg`),
+          caption: "Page 108",
         },
         {
-          path: "https://i-kinhdoanh.vnecdn.net/2018/06/18/1-1529296929_680x0.jpg",
-          caption: "Messi",
+          path: require(`@/assets/extract-photos/1-3.jpg`),
+          caption: "Page 109",
         },
       ],
     };
