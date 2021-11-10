@@ -3,8 +3,8 @@
     <p>
       As well as Jobs’ role in revolutionising the personal computer, he also
       co-founded another monumental company, Pixar. In 1995, Pixar released to
-      the world the first ever full-length feature film entirely on a desktop
-      computer, <i>Toy Story</i>. Since 1995, they have released some of the
+      the world the first ever full-length feature film craeted entirely on a desktop
+      computer, <i>Toy Story</i>. Since 1995, Pixar has released some of the
       most recognisable films to date, including <i>The Incredibles</i>,
       <i>Cars</i>, and <i>Finding Nemo</i>. This was all during the period of
       time where Jobs wasn’t working at Apple, and had founded a separate
@@ -13,7 +13,7 @@
       both cultures were respected”
       <span class="itr">(Isaacson 2011, p220)</span>. Throughout the biography,
       Isaacson has spoken about Jobs’ desire of a “frictionless” experience,
-      letting your ideas flow. We have seen this carry through into Apple’s
+      where you can bridge the gaps between your ideas and reality much more efficiently. We have seen this carry through into Apple’s
       newest ventures, especially recently in the Apple Watch. Isaacson has
       specifically chosen to include details like these as they help the reader
       understand what type of person Jobs is, and what he values.
